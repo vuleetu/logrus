@@ -9,6 +9,7 @@ var (
 	std = New()
 )
 
+//Return std
 func StdLog() *Logger {
     return std
 }
