@@ -9,6 +9,10 @@ var (
 	std = New()
 )
 
+func StdLog() *Logger {
+    return std
+}
+
 // SetOutput sets the standard logger output.
 func SetOutput(out io.Writer) {
 	std.mu.Lock()
