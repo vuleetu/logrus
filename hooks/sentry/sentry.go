@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/vuleetu/logrus"
-	"github.com/getsentry/raven-go"
+	"github.com/vuleetu/raven-go"
 )
 
 var (
