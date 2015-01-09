@@ -69,7 +69,7 @@ func (hook *SentryHook) Fire(entry *logrus.Entry) error {
 		Timestamp: raven.Timestamp(entry.Time),
 		Level:     severityMap[entry.Level],
 		Platform:  "go",
-        Interfaces: []raven.Interface{raven.NewStacktrace(4, hook.context, nil)},
+        Interfaces: []raven.Interface{raven.NewStacktrace(7, hook.context, nil)},
 	}
 
 	d := entry.Data
