@@ -2,7 +2,7 @@ package logrus_syslog
 
 import (
 	"fmt"
-	"github.com/Sirupsen/logrus"
+	"github.com/vuleetu//logrus"
 	"log/syslog"
 	"os"
 )
